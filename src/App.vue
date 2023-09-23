@@ -19,7 +19,6 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-  
 
 </template>
 

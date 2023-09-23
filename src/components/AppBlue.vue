@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
- <div id="app_blue" class="d-flex flex-grow align-items-center justify-content-between">
+ <div id="app_blue" class="d-flex  flex-lg-wrap flex-nowrap align-items-center justify-content-between">
     <div class="card_digilal">
         <img src="../../../src/assets/img/buy-comics-digital-comics.png" alt="">
         <div class="text">DIGITAL COMICS</div>
@@ -39,8 +39,6 @@ export default {
 
 #app_blue {
     background-color: $comics_primary;
-    // height: 150px;
-    padding-left: 13%;
     
     img {
         width: 20%;
@@ -53,8 +51,7 @@ export default {
         font-size: 90%;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        padding-left: 0.5rem;
-       
+        
     }
 
     .card_locator {

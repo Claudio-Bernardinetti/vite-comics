@@ -34,7 +34,6 @@ export default {
 
 #app_footer {
   background-color: $comics_dark_secondary;
-  // height: 110px;
   width: 100%;
   position: absolute;
   bottom: 1;

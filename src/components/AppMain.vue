@@ -73,8 +73,6 @@ export default {
 
   .text{
 
-    padding-left: 5rem;
-
     div {
     padding-right: 1.5rem;
     font-weight: bold;
@@ -88,13 +86,12 @@ export default {
         padding-top: 1rem;
         font-weight: normal;
         font-size: 70%;
-
     }
 
   }
     .img { 
-       margin-top: -5%;
-       margin-bottom: -5%;
+       margin-top: -8%;
+       margin-bottom: -8%;
     }
 }
 

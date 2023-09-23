@@ -15,7 +15,7 @@ export default {
             </div>
             <div class="nav_tags">
                 <div><a href="#">CHARACTERS</a></div>
-                <div><a href="#">COMICS</a></div>
+                <div class="active"><a  href="#">COMICS</a></div>
                 <div><a href="#">MOVIES</a></div>
                 <div><a href="#">TV</a></div>
                 <div><a href="#">GAMES</a></div>
@@ -44,7 +44,7 @@ export default {
   align-items: center;
   background-color: $comics_secondary;
   font-weight: bold;
-  font-size: 80%;
+  font-size: 70%;
 
   .nav_img {
      padding: 1rem;
@@ -53,12 +53,25 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 1rem;
+    
+    .active {
+      
+      border-bottom: 4px solid $comics_primary;
+      
+      a {
+      color: $comics_primary;
+      }
+
+    }
+
   }
   .nav_tags div {
-    padding-left: 1rem;
-    
+    margin-left: 1rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+
   }
+
   a {
     text-decoration: none;
     color: $comics_dark;

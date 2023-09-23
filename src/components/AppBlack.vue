@@ -22,7 +22,7 @@ export default {
     align-items: center;
     background-color: $comics_dark;
     height: 130px;
-    padding-left: 15%;
+    padding-left: 13%;
     font-weight: bold;
     font-size: 120%;
 

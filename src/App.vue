@@ -1,6 +1,7 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppBlack from './components/AppBlack.vue';
+import AppBlue from './components/AppBlue.vue';
 
 export default {
 
@@ -13,6 +14,7 @@ export default {
   components: {
     AppHeader,
     AppBlack,
+    AppBlue,
     
 }
 
@@ -22,6 +24,7 @@ export default {
 <template>
   <AppHeader></AppHeader>
   <AppBlack></AppBlack>
+  <AppBlue></AppBlue>
 
 </template>
 

@@ -49,6 +49,8 @@ export default {
   a.active-item {
     color: $comics_primary;
   }
+  
+  
   .nav_tags  {
     display: flex;
     justify-content: space-around;

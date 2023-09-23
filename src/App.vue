@@ -1,5 +1,6 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppBlack from './components/AppBlack.vue';
 
 export default {
 
@@ -11,6 +12,7 @@ export default {
   },
   components: {
     AppHeader,
+    AppBlack,
     
 }
 
@@ -19,6 +21,7 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+  <AppBlack></AppBlack>
 
 </template>
 

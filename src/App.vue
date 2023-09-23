@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppBlack from './components/AppBlack.vue';
 import AppBlue from './components/AppBlue.vue';
 import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 
 
 export default {
@@ -18,6 +19,8 @@ export default {
     AppBlack,
     AppBlue,
     AppMain,
+    AppFooter,
+    
     
 }
 
@@ -29,6 +32,7 @@ export default {
   <AppBlack></AppBlack>
   <AppBlue></AppBlue>
   <AppMain></AppMain>
+  <AppFooter></AppFooter>
 
 </template>
 

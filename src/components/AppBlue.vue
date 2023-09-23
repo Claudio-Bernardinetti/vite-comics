@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
- <div id="app_blue" class="d-flex align-items-center justify-content-between">
+ <div id="app_blue" class="d-flex flex-grow align-items-center justify-content-between">
     <div class="card_digilal">
         <img src="../../../src/assets/img/buy-comics-digital-comics.png" alt="">
         <div class="text">DIGITAL COMICS</div>
@@ -39,11 +39,11 @@ export default {
 
 #app_blue {
     background-color: $comics_primary;
-    height: 150px;
+    // height: 150px;
     padding-left: 13%;
     
     img {
-        width: 25%;
+        width: 20%;
     }
 
     div {
@@ -51,20 +51,23 @@ export default {
         align-items: center;
         color: $comics_secondary;
         font-size: 90%;
-        padding-left: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 0.5rem;
+       
     }
 
     .card_locator {
 
         img {
-            width:13%;
+            width:10%;
         }
     }
 
     .card_visa {
 
         img {
-            width:13%;
+            width:10%;
         }
     }
 }

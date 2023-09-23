@@ -7,8 +7,8 @@ export default {
 
 <template>
  <div id="app_main">
-    <div class="d-flex justify-content-around align-items-center">
-        <div class="text d-flex">
+    <div class="d-flex flex-wrap justify-content-around align-items-center p-3">
+        <div class="text d-flex flex-wrap">
            <div>DC COMICS
              <ul>
                 <li>Characters</li>
@@ -50,7 +50,7 @@ export default {
             </ul>
            </div> 
         </div>
-        <div class="img"><img src="../../../src/assets/img/dc-logo-bg.png" width="80%" alt=""></div>
+        <div class="img"><img src="../../../src/assets/img/dc-logo-bg.png" width="60%" alt=""></div>
     </div>
     
  </div>
@@ -63,7 +63,8 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 #app_main {
-  background-image: url(../../../src/assets/img/footer-bg.jpg); 
+  background-image: url(../../../src/assets/img/footer-bg.jpg);
+  position: relative; 
  
   
   div{
@@ -71,6 +72,8 @@ export default {
   }
 
   .text{
+
+    padding-left: 5rem;
 
     div {
     padding-right: 1.5rem;

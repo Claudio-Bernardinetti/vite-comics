@@ -8,7 +8,6 @@ export default {
 <template>
     <header id="app_header">
 
-     
       <!-- <nav class="navbar navbar-expand justify-content-center align-items-center"> -->
           
             <div class="nav_img">
@@ -40,19 +39,19 @@ export default {
 
 #app_header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   background-color: $comics_secondary;
-  height: 120px;
   font-weight: bold;
   font-size: 80%;
-  a.active-item {
-    color: $comics_primary;
+
+  .nav_img {
+     padding: 1rem;
   }
-  
-  
   .nav_tags  {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 1rem;
   }

@@ -1,12 +1,12 @@
 <script>
 
 export default {
-  
+  name: 'AppFooterTop'
 }
 </script>
 
 <template>
- <div id="app_main">
+ <div id="app_footer_top">
     <div class="d-flex flex-wrap justify-content-around align-items-center p-3">
         <div class="text d-flex flex-wrap">
            <div>DC COMICS
@@ -62,7 +62,7 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-#app_main {
+#app_footer_top {
   background-image: url(../../../src/assets/img/footer-bg.jpg);
   position: relative; 
  

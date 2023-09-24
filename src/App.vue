@@ -2,9 +2,8 @@
 import AppHeader from './components/AppHeader.vue';
 import AppBlack from './components/AppBlack.vue';
 import AppBlue from './components/AppBlue.vue';
-import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
-
+import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBottom from './components/AppFooterBottom.vue';
 
 export default {
 
@@ -18,10 +17,8 @@ export default {
     AppHeader,
     AppBlack,
     AppBlue,
-    AppMain,
-    AppFooter,
-    
-    
+    AppFooterTop,
+    AppFooterBottom,
 }
 
 }
@@ -31,8 +28,8 @@ export default {
   <AppHeader></AppHeader>
   <AppBlack></AppBlack>
   <AppBlue></AppBlue>
-  <AppMain></AppMain>
-  <AppFooter></AppFooter>
+  <AppFooterTop></AppFooterTop>
+  <AppFooterBottom></AppFooterBottom>
 
 </template>
 

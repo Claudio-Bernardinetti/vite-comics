@@ -1,17 +1,48 @@
 <script>
-
 export default {
-  
-}
+  name: 'AppBlue',
+
+  data(){
+    return{
+        cards: [
+            {
+                img: '../../../src/assets/img/buy-comics-digital-comics.png',
+                text: 'DIGITAL COMICS',
+                width: '20%'
+            },
+            {
+                img: '../../../src/assets/img/buy-comics-merchandise.png',
+                text: 'DC MERCHANDISE',
+                width: '20%'
+            },
+            {
+                img: '../../../src/assets/img/buy-comics-subscriptions.png',
+                text: 'SUBSCRIPTION',
+                width: '20%'
+            },
+            {
+                img: '../../../src/assets/img/buy-comics-shop-locator.png',
+                text: 'COMIC SHOP LOCATOR',
+                width: '10%'
+            },
+            {
+                img: '../../../src/assets/img/buy-dc-power-visa.svg',
+                text: 'DC POWER VISA',
+                width: '10%'
+            },
+        ]
+    }
+  }
+};
 </script>
 
 <template>
- <div id="app_blue" class="d-flex  flex-lg-wrap flex-nowrap align-items-center justify-content-between">
-    <div class="card_digilal">
-        <img src="../../../src/assets/img/buy-comics-digital-comics.png" alt="">
-        <div class="text">DIGITAL COMICS</div>
+ <div id="app_blue" class="d-flex  flex-wrap align-items-center justify-content-between">
+    <div class="card_digilal" v-for="(card, index) in cards" :key="index">
+        <img :src="card.img" :style="{ width: card.width }" alt="">
+        <div class="text">{{card.text}}</div>
     </div>
-    <div class="card_merchandise">
+    <!-- <div class="card_merchandise">
         <img src="../../../src/assets/img/buy-comics-merchandise.png" alt="">
         <div class="text">DC MERCHANDISE</div>
     </div>
@@ -26,7 +57,7 @@ export default {
     <div class="card_visa">
         <img src="../../../src/assets/img/buy-dc-power-visa.svg" alt="">
         <div class="text">DC POWER VISA</div>
-    </div>
+    </div> -->
     
  </div>
     
@@ -39,10 +70,6 @@ export default {
 
 #app_blue {
     background-color: $comics_primary;
-    
-    img {
-        width: 20%;
-    }
 
     div {
         display: flex;
@@ -54,18 +81,8 @@ export default {
         
     }
 
-    .card_locator {
-
-        img {
-            width:10%;
-        }
-    }
-
-    .card_visa {
-
-        img {
-            width:10%;
-        }
+    .text{
+        padding-left: 0.2rem;
     }
 }
 

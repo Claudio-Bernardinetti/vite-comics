@@ -2,11 +2,7 @@
 
 export default {
   name: 'AppHeader',
-  methods: {
-    getImageUrl(name) {
-      return new URL(`../../src/assets/img${name}.png`, import.meta.url).href;
-    }
-  }
+  
 }
 </script>
 

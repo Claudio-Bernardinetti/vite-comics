@@ -1,12 +1,8 @@
 <script>
 export default {
   name: 'AppJumbotron',
-  methods: {
-    getImageUrl(name) {
-      return new URL(`../../src/assets/img${name}.jpg`, import.meta.url).href;
-    }
-  }
-};
+  
+}
 </script>
 
 <template>

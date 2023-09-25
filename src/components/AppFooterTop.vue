@@ -2,11 +2,7 @@
 
 export default {
   name: 'AppFooterTop',
-  methods: {
-    getImageUrl(name) {
-      return new URL(`../../src/assets/img${name}.png`, import.meta.url).href;
-    }
-  }
+  
 }
 </script>
 
@@ -55,7 +51,7 @@ export default {
             </ul>
            </div> 
         </div>
-        <div class="img"><img src="../../../src/assets/img/dc-logo-bg.png" width="60%" alt=""></div>
+        <div class="img"><img src="../../src/assets/img/dc-logo-bg.png" width="60%" alt=""></div>
     </div>
     
  </div>

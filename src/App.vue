@@ -1,5 +1,6 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
 import AppBlue from './components/AppBlue.vue';
 import AppFooterTop from './components/AppFooterTop.vue';
 import AppFooterBottom from './components/AppFooterBottom.vue';
@@ -10,6 +11,7 @@ export default {
 
   components: {
     AppHeader,
+    AppJumbotron,
     AppBlue,
     AppFooterTop,
     AppFooterBottom,
@@ -27,6 +29,7 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+  <AppJumbotron></AppJumbotron>
   <div>
     <AppCards :dcComics="dcComics" />
   </div>

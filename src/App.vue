@@ -1,6 +1,5 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
-
 import AppBlue from './components/AppBlue.vue';
 import AppFooterTop from './components/AppFooterTop.vue';
 import AppFooterBottom from './components/AppFooterBottom.vue';
@@ -11,7 +10,6 @@ export default {
 
   components: {
     AppHeader,
-    
     AppBlue,
     AppFooterTop,
     AppFooterBottom,
@@ -29,7 +27,6 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-  
   <div>
     <AppCards :dcComics="dcComics" />
   </div>

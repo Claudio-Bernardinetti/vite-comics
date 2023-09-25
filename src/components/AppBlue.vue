@@ -23,12 +23,12 @@ export default {
             {
                 img: '../../../src/assets/img/buy-comics-shop-locator.png',
                 text: 'COMIC SHOP LOCATOR',
-                width: '10%'
+                width: '12%'
             },
             {
                 img: '../../../src/assets/img/buy-dc-power-visa.svg',
                 text: 'DC POWER VISA',
-                width: '10%'
+                width: '12%'
             },
         ]
     }

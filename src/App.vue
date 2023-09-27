@@ -4,7 +4,8 @@ import AppJumbotron from './components/AppJumbotron.vue';
 import AppBlue from './components/AppBlue.vue';
 import AppFooterTop from './components/AppFooterTop.vue';
 import AppFooterBottom from './components/AppFooterBottom.vue';
-import AppCards from './components/AppCards.vue'
+import AppCards from './components/AppCards.vue';
+
 import dcComics from '../../vite-comics/dcComics.json';
 
 export default {
@@ -16,6 +17,7 @@ export default {
     AppFooterTop,
     AppFooterBottom,
     AppCards,
+    
   },
 
     data() {
@@ -32,6 +34,7 @@ export default {
   <AppJumbotron></AppJumbotron>
   <div>
     <AppCards :dcComics="dcComics" />
+    
   </div>
   <AppBlue></AppBlue>
   <AppFooterTop></AppFooterTop>
